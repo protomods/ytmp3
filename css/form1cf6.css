@@ -1,0 +1,31 @@
+body{text-align:center;margin:0;-webkit-font-smoothing:antialiased;}
+#nav{font-size:15px;font-family:'Roboto', sans-serif;font-weight:400;max-width:600px;border-bottom:1px #dadada solid;margin:0 auto;padding:5px 0;}
+#nav a{color:#0087cf;text-decoration:none;margin-right:5%;} /*m:30px;*/
+#nav a:last-child{margin-right:0;}
+#content{max-width:600px;margin:0 auto;}
+#logo{border:none;margin:40px 0;}
+#content h1{color:#222121;font-size:30px;font-family:'Roboto', sans-serif;font-weight:300;margin:0 0 20px 0;}
+#content p{color:#222121;font-size:15px;font-family:'Roboto', sans-serif;font-weight:400;line-height:25px;text-align:justify;padding:0 3.333333333333333%;} /*p:20px;*/
+#content p a:link, #content p a:visited{color:#222121;}
+#content p a:hover, #content p a:active{text-decoration:none;}
+#content #separator{background-color:#e2e1e1;width:6.666666666666667%;height:5px;border:none;margin:40px auto;} /*w:40px;*/
+#notification{color:#0087cf !important;margin-bottom:20px;}
+form{width:93%;border:1px #dadada solid;border-radius:2px;padding:3.333333333333333%;}
+form label{color:#222121;font-size:15px;font-family:'Roboto', sans-serif;font-weight:500;margin-bottom:5px;display:block;}
+form .input{color:#222121;background-color:#f2f2f2;font-size:15px;font-family:'Roboto', sans-serif;font-weight:400;width:97.8494623655914%;height:36px;border:none;border-radius:2px;margin-bottom:20px;padding:0 1.075268817204301%;} /*w:546px;p:6px;*/
+form textarea{height:180px !important;padding:6px 1.075268817204301% !important;resize:none;}
+form #button{color:#ffffff;background-color:#0086ce;font-size:15px;font-family:'Roboto', sans-serif;font-weight:500;height:30px;border:none;border-radius:2px;padding:0 1.792114695340502%;cursor:pointer;-webkit-appearance:none;} /*p:10px;*/
+#footer{color:#7b7c7b;font-size:13px;font-family:'Roboto', sans-serif;font-weight:400;max-width:600px;border-top:1px #dadada solid;margin:40px auto;padding:5px 0;}
+#footer p{margin:0;}
+#footer p:first-child{text-align:left;float:left;width:25%;} /*w:150px;*/
+#footer p:last-child{text-align:right;float:right;width:75%;} /*w:450px;*/
+#footer a:link, #footer a:visited{color:#7b7c7b;text-decoration:none;margin-left:5%;} /*m:15px;*/
+#footer a:hover, #footer a:active{text-decoration:underline;}
+.clear{clear:both;}
+@media only screen and (max-width:600px) {
+   #logo{width:48%;}
+   #content p{width:95%;margin-right:auto;margin-left:auto;}
+   form{width:88%;margin:0 auto;}
+   #footer p:first-child{text-align:center;float:none;width:100%;}
+   #footer p:last-child{display:none;}
+}
